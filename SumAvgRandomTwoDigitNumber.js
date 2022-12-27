@@ -1,0 +1,14 @@
+let a = Math.floor(Math.random() * 90 + 10);
+let b = Math.floor(Math.random() * 90 + 10);
+let c = Math.floor(Math.random() * 90 + 10);
+let d = Math.floor(Math.random() * 90 + 10);
+let e = Math.floor(Math.random() * 90 + 10);
+let sum = a + b + c + d + e;
+let Avg = a + b + c + d + e / 2;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log("sum of 5 Random Digits:" + sum);
+console.log("Average of 5 Random Digits:" + Avg);
